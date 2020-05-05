@@ -11,6 +11,16 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "curfile",
+            "type": "shell",
+            "command": "${config:python.pythonPath} ${file}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         }
     ]
 }

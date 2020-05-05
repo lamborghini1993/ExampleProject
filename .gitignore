@@ -1,4 +1,7 @@
 lib/
 venv/
 Temp/
+Test/
 **/__pycache__
+*.fls
+*.pyc
