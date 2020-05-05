@@ -3,14 +3,14 @@
 @Description: 
 @Author: lamborghini1993
 @Date: 2020-05-04 14:29:57
-@UpdateDate: 2020-05-04 14:57:57
+@UpdateDate: 2020-05-05 19:37:34
 '''
 
 import sys
 
 from PyQt5 import QtWidgets, QtGui
 
-from . import mainwindow
+import mainwindow
 
 
 def Start():
