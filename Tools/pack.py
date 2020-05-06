@@ -1,9 +1,10 @@
 # -*- coding:utf-8 -*-
 '''
 @Description: 打包工具
+编译成pyc，然后加密
 @Author: lamborghini1993
 @Date: 2020-05-04 15:01:42
-@UpdateDate: 2020-05-05 19:49:49
+@UpdateDate: 2020-05-06 19:05:18
 '''
 
 import os
