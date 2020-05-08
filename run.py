@@ -3,13 +3,13 @@
 @Description: 
 @Author: lamborghini1993
 @Date: 2020-05-04 14:28:58
-@UpdateDate: 2020-05-07 19:53:15
+@UpdateDate: 2020-05-08 19:36:17
 '''
 
 import sys
 
 # 直接用脚本
-sys.path.append("Script")
+# sys.path.append("Script")
 
 # 未加密-fls
 # sys.path.append("Script.fls")
@@ -33,6 +33,8 @@ sys.path.append("Script")
 #             # import 顺序问题
 #             exec(co, new_module.__dict__)
 
+# pyarmor加密为fls
+sys.path.append("pyarmor.fls")
 
 import main
 main.Start()

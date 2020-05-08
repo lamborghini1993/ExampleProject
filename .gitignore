@@ -5,3 +5,5 @@ Test/
 **/__pycache__
 *.fls
 *.pyc
+pytransform/
+example/
