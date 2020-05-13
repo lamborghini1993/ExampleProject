@@ -13,6 +13,16 @@
             }
         },
         {
+            "label": "venv run",
+            "type": "shell",
+            "command": "./venv/Scripts/python.exe run.py",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "curfile",
             "type": "shell",
             "command": "${config:python.pythonPath} ${file}",
