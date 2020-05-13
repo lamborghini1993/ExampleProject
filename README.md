@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: lamborghini1993
  * @Date: 2020-05-04 14:12:19
- * @UpdateDate: 2020-05-13 19:51:28
+ * @UpdateDate: 2020-05-13 19:55:11
  -->
 
 # 搭建完美开发环境
@@ -34,6 +34,9 @@
 - [设置说明](https://github.com/timothycrosley/isort/wiki/isort-Settings)
 
 
+## pylint
+> Pylint是一种工具，可检查Python代码中的错误，尝试实施编码标准并查找代码气味。它还可以查找某些类型错误，可以建议有关如何重构特定块的建议，并可以为您提供有关代码复杂性的详细信息。
+- [Pylint用户手册](http://pylint.pycqa.org/en/latest/)
 
 # python字节码混淆
 ### PyArmor

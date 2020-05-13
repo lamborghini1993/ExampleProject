@@ -1,3 +1,12 @@
 {
-    "python.pythonPath": "D:\\Python\\Python38\\python.exe"
+    "python.pythonPath": "D:\\Python\\Python38\\python.exe",
+    // 额外路径-支持跳转
+    "python.autoComplete.extraPaths": [
+        "ExtraPath"
+    ],
+    // pylint 配置
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile=.vscode/pylint.conf"
+    ]
 }
