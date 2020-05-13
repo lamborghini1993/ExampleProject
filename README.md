@@ -2,9 +2,11 @@
  * @Description: 
  * @Author: lamborghini1993
  * @Date: 2020-05-04 14:12:19
- * @UpdateDate: 2020-05-13 15:35:30
+ * @UpdateDate: 2020-05-13 16:32:25
  -->
 
+# 开发环境需要的库
+`pip install pylint autopep8 isort`
 
 # python字节码混淆
 ## PyArmor
@@ -38,3 +40,11 @@ https://github.com/c0cc/code_obfuscate
 - trim_trailing_whitespace:设置为true删除文件中所有在换行符之前的空白字符，并false确保没有。
 - insert_final_newline:设置以true确保文件在保存时以换行符结尾，并false 确保没有。
 - root:必须在序言中指定。设置为true停止.editorconfig对当前文件的 文件搜索。该值不区分大小写。
+
+# isort
+# 简介 [官网](https://github.com/timothycrosley/isort)
+> isort是一个Python实用程序/库，用于按字母顺序对导入进行排序，并自动将其分成多个部分和类型。它为各种编辑器提供了命令行实用程序，Python库和插件，可快速对所有导入内容进行排序。它需要Python 3.6+才能运行，但也支持格式化Python 2代码。
+
+## 相关链接
+- [ide插件](https://github.com/timothycrosley/isort/wiki/isort-Plugins)
+- [设置说明](https://github.com/timothycrosley/isort/wiki/isort-Settings)
