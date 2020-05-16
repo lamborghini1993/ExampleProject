@@ -1,14 +1,14 @@
 # EditorConfig is awesome: https://EditorConfig.org
 
-# top-most EditorConfig file è¡¨ç¤ºæ˜¯æœ€é¡¶å±‚çš„é…ç½®æ–‡ä»¶ï¼Œå‘ç°è®¾ä¸ºtrueæ—¶ï¼Œæ‰ä¼šåœæ­¢æŸ¥æ‰¾.editorconfigæ–‡ä»¶
+# top-most EditorConfig file ±íÊ¾ÊÇ×î¶¥²ãµÄÅäÖÃÎÄ¼ş£¬·¢ÏÖÉèÎªtrueÊ±£¬²Å»áÍ£Ö¹²éÕÒ.editorconfigÎÄ¼ş
 root = true
 
-# Unix-style newlines with a newline ending every file å¯¹äºæ‰€æœ‰çš„æ–‡ä»¶  å§‹ç»ˆåœ¨æ–‡ä»¶æœ«å°¾æ’å…¥ä¸€ä¸ªæ–°è¡Œ
+# Unix-style newlines with a newline ending every file ¶ÔÓÚËùÓĞµÄÎÄ¼ş  Ê¼ÖÕÔÚÎÄ¼şÄ©Î²²åÈëÒ»¸öĞÂĞĞ
 [*]
 end_of_line = crlf
 insert_final_newline = true
 
-# 4 space indentation æ§åˆ¶pyæ–‡ä»¶ç±»å‹çš„ç¼©è¿›å¤§å°
+# 4 space indentation ¿ØÖÆpyÎÄ¼şÀàĞÍµÄËõ½ø´óĞ¡
 [*.py]
 charset = utf-8
 indent_style = space

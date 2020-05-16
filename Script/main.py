@@ -1,16 +1,18 @@
 # -*- coding:utf-8 -*-
 '''
-@Description: 
+@Description:
 @Author: lamborghini1993
 @Date: 2020-05-04 14:29:57
-@UpdateDate: 2020-05-07 19:52:51
+@UpdateDate: 2020-05-14 20:20:05
 '''
 
+# Standard Library
 import sys
 
-from PyQt5 import QtWidgets, QtGui
-
+# My Stuff
 from widget import mainwindow
+
+from PyQt5 import QtGui, QtWidgets
 
 
 def Start():
